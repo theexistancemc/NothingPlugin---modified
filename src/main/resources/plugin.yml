@@ -1,0 +1,10 @@
+name: NothingPlugin
+version: '1.21.11'
+main: net.Mil3sinMe.nothingPlugin.NothingPlugin
+api-version: '1.21'
+authors: [ Mil3sinMe ]
+description: Made By Mil3sinMe
+commands:
+  secret:
+    description: A secret command
+    usage: /<command>
