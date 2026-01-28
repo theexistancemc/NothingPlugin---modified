@@ -10,12 +10,12 @@ public class SecretCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage("This command can only be used by players!");
+            sender.sendMessage("&cThis command can only be used by players!");
             return true;
         }
         
         Player player = (Player) sender;
-        player.sendMessage("This is a secret message!");
+        player.sendMessage("This is a &dksecret&r message!");
         
         return true;
     }
